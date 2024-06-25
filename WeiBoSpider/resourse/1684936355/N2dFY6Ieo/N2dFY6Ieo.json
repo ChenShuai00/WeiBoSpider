@@ -1,0 +1,201 @@
+{
+  "visible": {
+    "type": 0,
+    "list_id": 0
+  },
+  "created_at": "Thu May 25 14:31:23 +0800 2023",
+  "id": 4905292301599996,
+  "idstr": "4905292301599996",
+  "mid": "4905292301599996",
+  "mblogid": "N2dFY6Ieo",
+  "user": {
+    "id": 1684936355,
+    "idstr": "1684936355",
+    "pc_new": 7,
+    "screen_name": "国泰航空",
+    "profile_image_url": "https://tvax3.sinaimg.cn/crop.0.0.600.600.50/646e16a3ly8h8uj2uqv50j20go0goq36.jpg?KID=imgbed,tva&Expires=1719334778&ssig=nlFIiPaqgy",
+    "profile_url": "/u/1684936355",
+    "verified": true,
+    "verified_type": 2,
+    "domain": "cathayanddragonair",
+    "weihao": "",
+    "verified_type_ext": 50,
+    "status_total_counter": {
+      "total_cnt_format": "187.3万",
+      "comment_cnt": "208,228",
+      "repost_cnt": "384,829",
+      "like_cnt": "1,279,935",
+      "total_cnt": "1,872,992"
+    },
+    "avatar_large": "https://tvax3.sinaimg.cn/crop.0.0.600.600.180/646e16a3ly8h8uj2uqv50j20go0goq36.jpg?KID=imgbed,tva&Expires=1719334778&ssig=O7ncxTalcR",
+    "avatar_hd": "https://tvax3.sinaimg.cn/crop.0.0.600.600.1024/646e16a3ly8h8uj2uqv50j20go0goq36.jpg?KID=imgbed,tva&Expires=1719334778&ssig=XxdBZH34WT",
+    "follow_me": false,
+    "following": false,
+    "mbrank": 7,
+    "mbtype": 12,
+    "v_plus": 0,
+    "planet_video": false,
+    "icon_list": [
+      {
+        "type": "vip",
+        "data": {
+          "mbrank": 7,
+          "mbtype": 12,
+          "svip": 0,
+          "vvip": 0
+        }
+      },
+      {
+        "type": "icon",
+        "data": {
+          "value": "1",
+          "icon_img": "https://h5.sinaimg.cn/upload/106/1683/2024/06/18/feed_icon_2024biyeji2x.png",
+          "title": "毕业季",
+          "url": "https://s.weibo.com/weibo?q=%23毕业季%23"
+        }
+      }
+    ]
+  },
+  "can_edit": false,
+  "edit_count": 1,
+  "text_raw": "【国泰航空声明】我们知悉空中服务员工会于2023年5月24日，就一名顾客于2023年5月21日于CX987航班上经历的事件发表声明。\n\n国泰航空就此郑重澄清，“空中服务员工会”为一个独立工会，从来不代表国泰。我们明确声明，公司不接受、支持或同意该工会对此事的立场。\n\n我们一直并将继续与机舱服务员同事直 ​​​",
+  "textLength": 518,
+  "annotations": [
+    {
+      "photo_sub_type": "0"
+    },
+    [],
+    {
+      "source_text": "",
+      "phone_id": ""
+    },
+    {
+      "mapi_request": true
+    }
+  ],
+  "source": "微博网页版",
+  "favorited": false,
+  "rid": "0_0_0_5245962579640149023_0_0_0",
+  "pic_ids": [
+    "646e16a3ly1heam5cvdmtj21wx2phgte"
+  ],
+  "pic_focus_point": [
+    {
+      "focus_point": {
+        "left": 0.0004043358,
+        "top": 0.017167138,
+        "width": 0.9995956,
+        "height": 0.7066814
+      },
+      "pic_id": "646e16a3ly1heam5cvdmtj21wx2phgte"
+    }
+  ],
+  "pic_num": 1,
+  "pic_infos": {
+    "646e16a3ly1heam5cvdmtj21wx2phgte": {
+      "thumbnail": {
+        "url": "https://wx4.sinaimg.cn/wap180/646e16a3ly1heam5cvdmtj21wx2phgte.jpg",
+        "width": 127,
+        "height": 180,
+        "cut_type": 1,
+        "type": null
+      },
+      "bmiddle": {
+        "url": "https://wx4.sinaimg.cn/wap360/646e16a3ly1heam5cvdmtj21wx2phgte.jpg",
+        "width": 254,
+        "height": 360,
+        "cut_type": 1,
+        "type": null
+      },
+      "large": {
+        "url": "https://wx4.sinaimg.cn/orj960/646e16a3ly1heam5cvdmtj21wx2phgte.jpg",
+        "width": 960,
+        "height": 1357,
+        "cut_type": 1,
+        "type": null
+      },
+      "original": {
+        "url": "https://wx4.sinaimg.cn/orj1080/646e16a3ly1heam5cvdmtj21wx2phgte.jpg",
+        "width": 1080,
+        "height": 1527,
+        "cut_type": 1,
+        "type": null
+      },
+      "largest": {
+        "url": "https://wx4.sinaimg.cn/large/646e16a3ly1heam5cvdmtj21wx2phgte.jpg",
+        "width": 2048,
+        "height": 2896,
+        "cut_type": 1,
+        "type": null
+      },
+      "mw2000": {
+        "url": "https://wx4.sinaimg.cn/mw2000/646e16a3ly1heam5cvdmtj21wx2phgte.jpg",
+        "width": 2000,
+        "height": 2828,
+        "cut_type": 1,
+        "type": null
+      },
+      "largecover": {
+        "url": "https://wx4.sinaimg.cn/cmw960/646e16a3ly1heam5cvdmtj21wx2phgte.jpg",
+        "width": 960,
+        "height": 1357,
+        "cut_type": 1,
+        "type": null
+      },
+      "focus_point": {
+        "left": 0.0004043358,
+        "top": 0.017167138,
+        "width": 0.9995956,
+        "height": 0.7066814
+      },
+      "object_id": "1042018:b5452a1480eb72ea246a35e654cf523d",
+      "pic_id": "646e16a3ly1heam5cvdmtj21wx2phgte",
+      "photo_tag": 0,
+      "type": "pic",
+      "pic_status": 1
+    }
+  },
+  "is_paid": false,
+  "mblog_vip_type": 0,
+  "number_display_strategy": {
+    "apply_scenario_flag": 3,
+    "display_text_min_number": 1000000,
+    "display_text": "100万+"
+  },
+  "reposts_count": 1469,
+  "comments_count": 6250,
+  "attitudes_count": 87361,
+  "attitudes_status": 1,
+  "continue_tag": {
+    "title": "全文",
+    "pic": "http://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_article.png",
+    "scheme": "sinaweibo://detail?mblogid=4905292301599996&id=4905292301599996&next_fid=232532_mblog&feed_detail_type=0"
+  },
+  "isLongText": true,
+  "mlevel": 0,
+  "content_auth": 0,
+  "is_show_bulletin": 2,
+  "comment_manage_info": {
+    "comment_permission_type": -1,
+    "approval_comment_type": 0,
+    "comment_sort_type": 0
+  },
+  "share_repost_type": 0,
+  "title": {
+    "text": "公开",
+    "base_color": 1,
+    "icon_url": "http://h5.sinaimg.cn/upload/2015/07/14/34/timeline_title_public.png"
+  },
+  "mblogtype": 0,
+  "showFeedRepost": false,
+  "showFeedComment": false,
+  "pictureViewerSign": false,
+  "showPictureViewer": false,
+  "rcList": [],
+  "analysis_extra": "",
+  "readtimetype": "mblog",
+  "text": "【国泰航空声明】我们知悉空中服务员工会于2023年5月24日，就一名顾客于2023年5月21日于CX987航班上经历的事件发表声明。<br /><br />国泰航空就此郑重澄清，“空中服务员工会”为一个独立工会，从来不代表国泰。我们明确声明，公司不接受、支持或同意该工会对此事的立场。<br /><br />我们一直并将继续与机舱服务员同事直 ​​​ ...<span class=\"expand\">展开</span>",
+  "region_name": "发布于 北京",
+  "customIcons": [],
+  "ok": 1
+}

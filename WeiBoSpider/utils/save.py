@@ -7,6 +7,6 @@ class Save:
         self.file_name = file_name
         self.data = data
 
-    def saveToJson(self):
+    def savetojson(self):
         with open(f'{self.save_path}/{self.file_name}', 'w', encoding='utf-8') as f:
             json.dump(self.data, f, ensure_ascii=False)

@@ -1,16 +1,18 @@
 import aiohttp
 import asyncio
+import os
 from urllib.parse import urlparse
 from fake_useragent import UserAgent
 from utils.save import Save
+from utils.ExamFolder import ExamFolder
+from utils.read import Read
 
 
 # 从评论和转发页面的url中提取mblogid
-def parseUrl(url):
+def parseurl(url, index):
     parsed_url = urlparse(url)
     path_parts = parsed_url.path.split('/')
-    log_id = path_parts[-1] if path_parts else None
-    return log_id
+    return path_parts[index]
 
 
 async def main(lid, cookie, resourse_path):
@@ -20,18 +22,29 @@ async def main(lid, cookie, resourse_path):
         headers = {
             'User-Agent': ua.random,
         }
-        show_url = f'https://weibo.com/ajax/statuses/show?id={lid}&locale=zh-CN'
-        async with session.get(show_url, headers=headers) as resp:
-            data = await resp.json()
-            s = Save(resourse_path, f'{lid}.json', data)
-            s.saveToJson()
-
+        if os.path.exists(f"{resourse_path}/{lid}.json"):
+            dic_data = Read(f"{resourse_path}/{lid}.json").readjson()
+            print(dic_data["id"])
+        else:
+            show_url = f'https://weibo.com/ajax/statuses/show?id={lid}&locale=zh-CN'
+            async with session.get(show_url, headers=headers) as resp:
+                json_data = await resp.json()
+                save = Save(resourse_path, f'{lid}.json', json_data)
+                save.savetojson()
 
 
 if __name__ == "__main__":
     link = "https://weibo.com/1684936355/N2dFY6Ieo#comment"
-    resourse_path = "./resourse"
-    log_id = parseUrl(link)
+    root_path = "./resourse"
+    # 检查资源文件是否在
+    exam = ExamFolder()
+    exam.examfolder(root_path)
+    uid = parseurl(link,-2)
+    log_id = parseurl(link, -1)
+    # 检查并创建单个微博用户文件夹
+    exam.examfolder(f"{root_path}/{uid}")
+    # 检查并创建单个微博文件夹
+    file_path = exam.examfolder(f"{root_path}/{uid}/{log_id}")
     cookies = {
         'XSRF-TOKEN': '5dSDvK-NUjBm6_GslnWfsw-0',
         'WBPSESS': 'bGZvSbittzOUUaWPWi8OqsuMWKbrUWxfVU4WWEwgRmBs9z-g_pyqHcC2IbNTcnmPqoXdQ_HRYvKatP_WGh'
@@ -42,4 +55,4 @@ if __name__ == "__main__":
                 '-Ee0M2dJLoIEBLxKnLBKMLBKeLxK-LB.qLBKMLxK-LBonL1h-LxK-LBonL1h-t',
     }
 
-    asyncio.run(main(log_id, cookies, resourse_path))
+    asyncio.run(main(log_id, cookies, file_path))
