@@ -24,6 +24,10 @@ def get_newest_file(dir_path):
     return newest_file_path, newest_file
 
 
+def len_folder(dir_path):
+    return len(os.listdir(dir_path))
+
+
 class ExamFolder:
     def __init__(self):
         pass
